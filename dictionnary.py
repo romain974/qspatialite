@@ -1,0 +1,64 @@
+#sql keyword
+f1=[
+"abort","action","add","after","all","alter","analyze","and","as","asc","attach","autoincrement","before","begin",
+"between","by","cascade","case","cast","check","collate","column","commit","conflict","constraint","create","cross",
+"current_date","current_time","current_timestamp","database","default","deferrable","deferred","delete","desc","detach",
+"distinct","drop","each","else","end","escape","except","exclusive","exists","explain","fail","for","foreign","from","full",
+"glob","group","having","if","ignore","immediate","in","index","indexed","initially","inner","insert","instead","intersect",
+"into","is","isnull","join","key","left","like","limit","match","natural","no","not","notnull","null","of","offset","on",
+"or","order","outer","plan","pragma","primary","query","raise","references","regexp","reindex","release","rename","replace",
+"restrict","right","rollback","row","savepoint","select","set","table","temp","temporary","then","to","transaction",
+"trigger","union","unique","update","using","vacuum","values","view","virtual","when","where","text","numeric","integer",
+"real","none"
+]
+# sqlite functions
+f2=[
+"abs","changes","coalesce","glob","ifnull","hex","last_insert_rowid","length","like","load_extension","lower","ltrim",
+"max","min","nullif","quote","random","randomblob","replace","round","rtrim","soundex","sqlite_version","total_change",
+"trim","typeof","upper","zeroblob","date","datetime","julianday","strftime","avg","count","group_concat","sum","total"
+]
+# spatialite function
+f3=[
+"spatialite_version","geos_version","proj4_version","geometryconstraints","checkspatialmetadata",
+"autofdostart","autofdostop","initfdospatialmetadata","addfdogeometrycolumn","recoverfdogeometrycolumn",
+"discardfdogeometrycolumn","initspatialmetadata","addgeometrycolumn","recovergeometrycolumn",
+"discardgeometrycolumn","createspatialindex","creatembrcache","disablespatialindex",
+"rebuildgeometrytriggers","abs","acos","asin","atan","ceil","ceiling","cos","cot","degrees","exp",
+"floor","ln","log","log2","log10","pi","pow","power","radians","round","sign","sin","sqrt","stddev_pop",
+"stddev_samp","var_pop","var_samp","tan","iszipblob","ispdfblob","isgifblob","ispngblob","istiffblob",
+"iswaveletblob","isjpegblob","isexifblob","isexifgpsblob","makepoint","buildmbr","buildcirclembr","mbrminx",
+"mbrminy","mbrmaxx","mbrmaxy","geomfromtext","st_geomfromtext","geometryfromtext","st_geometryfromtext",
+"pointfromtext","st_pointfromtext","linefromtext","st_linefromtext","linestringfromtext","st_linestringfromtext",
+"polyfromtext","st_polyfromtext","polygonfromtext","st_polygonfromtext","mpointfromtext","st_mpointfromtext",
+"multipointfromtext","st_multipointfromtext","mlinefromtext","st_mlinefromtext","multilinestringfromtext",
+"st_multilinestringfromtext","mpolyfromtext","st_mpolyfromtext","multipolygonfromtext","st_multipolygonfromtext",
+"geomcollfromtext","st_geomcollfromtext","geometrycollectionfromtext","bdpolyfromtext","st_bdpolyfromtext",
+"bdmpolyfromtext","st_bdmpolyfromtext","geometrycollectionfromtext","geomfromwkb","st_geomfromwkb","pointfromwkb",
+"st_pointfromwkb","linefromwkb","st_linefromwkb","linestringfromwkb","st_linestringfromwkb","polyfromwkb","st_polyfromwkb",
+"polygonfromwkb","st_polygonfromwkb","mpointfromwkb","st_mpointfromwkb","multipointfromwkb","st_multipointfromwkb",
+"mlinefromwkb","st_mlinefromwkb","multilinestringfromwkb","st_multilinestringfromwkb","mpolyfromwkb","st_mpolyfromwkb",
+"multipolygonfromwkb","st_multipolygonfromwkb","geomcollfromwkb","st_geomcollfromwkb","geometrycollectionfromwkb",
+"st_geometrycollectionfromwkb","bdpolyfromwkb","st_bdpolyfromwkb","bdmpolyfromwkb","st_bdmpolyfromwkb","astext",
+"st_astext","assvg","askml","asgml","asfgf","asbinary","st_asbinary","geomfromfgf","compressgeometry","uncompressgeometry",
+"sanitizegeometry","casttopoint","casttolinestring","casttopolygon","casttomultipoint","casttomultilinestring",
+"casttomultipolygon","casttogeometrycollection","casttomulti","st_multi","casttosingle","casttoxy","casttoxyz","casttoxym",
+"casttoxyzm","dimension","st_dimension","coorddimension","geometrytype","geometryaliastype","st_geometrytype",
+"srid","st_srid","setsrid","isempty","st_isempty","issimple","st_issimple","isvalid","st_isvalid","boundary","st_boundary",
+"envelope","st_envelope","x","st_x","y","st_y","z","st_z","m","st_m","startpoint","st_startpoint","endpoint","st_endpoint",
+"glength","st_length","isclosed","st_isclosed","isring","st_isring","simplify","st_generalize","simplifypreservetopology",
+"buildarea","polygonize","geodesiclength","greatcirclelength","numpoints","st_numpoints","pointn","st_pointn","centroid",
+"st_centroid","pointonsurface","st_pointonsurface","area","st_area","exteriorring","st_exteriorring","numinteriorring",
+"st_numinteriorring","numinteriorrings","interiorringn","st_interiorringn","numgeometries","st_numgeometries","geometryn",
+"st_geometryn","mbrequal","mbrdisjoint","mbrtouches","mbrwithin","mbroverlaps","mbrintersects","mbrcontains","equals",
+"st_equals","disjoint","st_disjoint","touches","st_touches","within","st_within","overlaps","st_overlaps","crosses",
+"st_crosses","intersects","st_intersects","contains","st_contains","relate","st_relate","distance","st_distance",
+"ptdistwithin","intersection","st_intersection","difference","st_difference","gunion","st_union","symdifference",
+"st_symdifference","buffer","st_buffer","convexhull","st_convexhull","transform","shiftcoords","shiftcoordinates","scalecoords",
+"scalecoordinates","rotatecoords","rotatecoordinates","reflectcoords","reflectcoordinates","swapcoords","swapcoordinates",
+"filtermbrwithin","filtermbrcontains","filtermbrintersects","buildmbrfilter","rtreewithin","rtreecontains","rtreeintersects",
+"rtreedistwithin"
+]
+#Other Things
+f4=[ "None","False","True"]
+#all:
+f=["geometry"]+f1+f2+f3+f4

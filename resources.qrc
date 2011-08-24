@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/plugins/QspatiaLite/" >
+        <file>icons/table.png</file>
+        <file>icons/view.png</file>
+        <file>icons/spatialview.png</file>
+        <file>icons/layer_point.png</file>
+        <file>icons/layer_line.png</file>
+        <file>icons/layer_polygon.png</file>
+        <file>icons/layer_unknown.png</file>
+	<file>icons/column.xpm</file>
+	<file>icons/systable.xpm</file>
+	<file>icons/pkey.xpm</file>
+	<file>icons/geometry.xpm</file>
+	<file>icons/spatialidx.xpm</file>
+	<file>icons/vacuum.xpm</file>
+    </qresource>
+    <qresource prefix="/plugins/qspatialite/" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
